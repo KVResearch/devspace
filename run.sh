@@ -8,4 +8,4 @@ SRC=$CS/src
 mv $SRC/browser $SRC/browser-bak
 cp -r ./code-server $SRC
 mv $SRC/code-server $SRC/browser
-
+cp $SRC/browser-bak/*.* $SRC/browser
